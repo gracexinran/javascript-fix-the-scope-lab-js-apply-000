@@ -11,12 +11,11 @@ function yourAnimal() {
   return animal;
 }
 
-var n = Math.floor(Math.random()*1000)
+const n = Math.floor(Math.random()*1000)
 function add2(n) {
-  return n + two
-
-  // Feel free to move things around!
   const two = 2
+  return n + two
+  // Feel free to move things around!
 }
 
 var funkyFunction = function() {
